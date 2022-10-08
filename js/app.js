@@ -18,13 +18,9 @@ UI.convertButton.addEventListener('click', () => {
   const amount = UI.amount.value;
 
   getCurrencies(fromCurrency, toCurrency).then((data) => {
-    console.log(data);
-
     const rate = data.rates[toCurrency];
 
     const total = amount * rate;
-
-    console.log(total, rate);
 
     UI.display.innerHTML = `$${new Intl.NumberFormat().format(
       amount
