@@ -6,11 +6,15 @@ Based on a tweet from [Freddy Montes on Twitter](https://twitter.com/fmontes/sta
 ## Outcome
 
 While making this site I praticed:
+
 1. Consuming APIs
 2. Import/Export
 3. ES6
 4. Async/Await. 
 5. .then()
+6. Objects
+7. Arrays
+8. forEach loops
 
 ## Live site
 
